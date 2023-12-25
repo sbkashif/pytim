@@ -1,0 +1,28 @@
+# Python package ignore
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+build/
+dist/
+*.egg-info/
+*.egg
+*.exe
+*.dll
+*.so
+*.dylib
+*.bak
+*.swp
+*.out
+*.pid
+*.pid.lock
+
+# output files
+pytim/examples/*.vtk
+pytim/examples/*.cube
+pytim/examples/*.pdb
+pytim/examples/*.obj
+
+#unclear files
+pytim/circumradius.cpp
+pytim/dbscan_inner.cpp
